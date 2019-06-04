@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="a.b.c.mybatisgeneratordemo.client.AppBillRecordMapper">
+  <resultMap id="BaseResultMap" type="a.b.c.mybatisgeneratordemo.model.AppBillRecord">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="version" jdbcType="BIGINT" property="version" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="action_id" jdbcType="BIGINT" property="actionId" />
+    <result column="money" jdbcType="BIGINT" property="money" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+    <result column="is_del" jdbcType="BIT" property="isDel" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+  </resultMap>
+</mapper>

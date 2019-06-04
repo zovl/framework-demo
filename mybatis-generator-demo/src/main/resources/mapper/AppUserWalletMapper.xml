@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="a.b.c.mybatisgeneratordemo.client.AppUserWalletMapper">
+  <resultMap id="BaseResultMap" type="a.b.c.mybatisgeneratordemo.model.AppUserWallet">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="version" jdbcType="BIGINT" property="version" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="show_password" jdbcType="VARCHAR" property="showPassword" />
+    <result column="pay_password" jdbcType="VARCHAR" property="payPassword" />
+    <result column="show_money" jdbcType="BIGINT" property="showMoney" />
+    <result column="tobe_money" jdbcType="BIGINT" property="tobeMoney" />
+    <result column="being_money" jdbcType="BIGINT" property="beingMoney" />
+    <result column="freeze_money" jdbcType="BIGINT" property="freezeMoney" />
+    <result column="withdraw_money" jdbcType="BIGINT" property="withdrawMoney" />
+    <result column="advance_money" jdbcType="BIGINT" property="advanceMoney" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+    <result column="is_del" jdbcType="BIT" property="isDel" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+  </resultMap>
+</mapper>

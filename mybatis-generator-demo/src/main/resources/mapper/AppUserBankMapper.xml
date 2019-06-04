@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="a.b.c.mybatisgeneratordemo.client.AppUserBankMapper">
+  <resultMap id="BaseResultMap" type="a.b.c.mybatisgeneratordemo.model.AppUserBank">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="bank_type" jdbcType="INTEGER" property="bankType" />
+    <result column="bank_id" jdbcType="VARCHAR" property="bankId" />
+    <result column="is_del" jdbcType="BIT" property="isDel" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+  </resultMap>
+</mapper>

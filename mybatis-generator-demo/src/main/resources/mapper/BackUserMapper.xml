@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="a.b.c.mybatisgeneratordemo.client.BackUserMapper">
+  <resultMap id="BaseResultMap" type="a.b.c.mybatisgeneratordemo.model.BackUser">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="CREATEDATETIME" jdbcType="TIMESTAMP" property="createdatetime" />
+    <result column="MODIFYDATETIME" jdbcType="TIMESTAMP" property="modifydatetime" />
+    <result column="USERNAME" jdbcType="VARCHAR" property="username" />
+    <result column="PWD" jdbcType="VARCHAR" property="pwd" />
+    <result column="PHONE" jdbcType="VARCHAR" property="phone" />
+    <result column="ISDEL" jdbcType="BIT" property="isdel" />
+    <result column="USERSTATUS" jdbcType="VARCHAR" property="userstatus" />
+  </resultMap>
+</mapper>

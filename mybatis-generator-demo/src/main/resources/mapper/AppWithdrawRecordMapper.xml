@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="a.b.c.mybatisgeneratordemo.client.AppWithdrawRecordMapper">
+  <resultMap id="BaseResultMap" type="a.b.c.mybatisgeneratordemo.model.AppWithdrawRecord">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="version" jdbcType="BIGINT" property="version" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="withdraw_type" jdbcType="INTEGER" property="withdrawType" />
+    <result column="withdraw_money" jdbcType="BIGINT" property="withdrawMoney" />
+    <result column="advance_money" jdbcType="BIGINT" property="advanceMoney" />
+    <result column="bank_code" jdbcType="VARCHAR" property="bankCode" />
+    <result column="card_type" jdbcType="VARCHAR" property="cardType" />
+    <result column="bank_card_number" jdbcType="VARCHAR" property="bankCardNumber" />
+    <result column="withdraw_code" jdbcType="VARCHAR" property="withdrawCode" />
+    <result column="req_status" jdbcType="VARCHAR" property="reqStatus" />
+    <result column="business_status" jdbcType="VARCHAR" property="businessStatus" />
+    <result column="fail_info" jdbcType="VARCHAR" property="failInfo" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+    <result column="is_del" jdbcType="BIT" property="isDel" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+    <result column="bank_name" jdbcType="VARCHAR" property="bankName" />
+    <result column="reach_money" jdbcType="BIGINT" property="reachMoney" />
+    <result column="fee_money" jdbcType="BIGINT" property="feeMoney" />
+    <result column="finish_date" jdbcType="TIMESTAMP" property="finishDate" />
+    <result column="withdraw_channel" jdbcType="VARCHAR" property="withdrawChannel" />
+    <result column="real_name" jdbcType="VARCHAR" property="realName" />
+    <result column="bank_process_number" jdbcType="VARCHAR" property="bankProcessNumber" />
+    <result column="bank_city" jdbcType="VARCHAR" property="bankCity" />
+    <result column="bank_resp_info" jdbcType="LONGVARCHAR" property="bankRespInfo" />
+  </resultMap>
+</mapper>

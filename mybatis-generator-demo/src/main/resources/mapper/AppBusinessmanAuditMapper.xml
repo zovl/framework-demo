@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="a.b.c.mybatisgeneratordemo.client.AppBusinessmanAuditMapper">
+  <resultMap id="BaseResultMap" type="a.b.c.mybatisgeneratordemo.model.AppBusinessmanAudit">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="version" jdbcType="BIGINT" property="version" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="back_user_id" jdbcType="VARCHAR" property="backUserId" />
+    <result column="back_user_name" jdbcType="VARCHAR" property="backUserName" />
+    <result column="audit_date" jdbcType="TIMESTAMP" property="auditDate" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="audit_fail_info" jdbcType="VARCHAR" property="auditFailInfo" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+    <result column="is_del" jdbcType="BIT" property="isDel" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+  </resultMap>
+</mapper>

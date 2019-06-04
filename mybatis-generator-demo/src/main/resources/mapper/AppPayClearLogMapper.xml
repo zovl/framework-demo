@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="a.b.c.mybatisgeneratordemo.client.AppPayClearLogMapper">
+  <resultMap id="BaseResultMap" type="a.b.c.mybatisgeneratordemo.model.AppPayClearLog">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="version" jdbcType="BIGINT" property="version" />
+    <result column="pay_clear_no" jdbcType="VARCHAR" property="payClearNo" />
+    <result column="busineer_number" jdbcType="VARCHAR" property="busineerNumber" />
+    <result column="channel_order_id" jdbcType="VARCHAR" property="channelOrderId" />
+    <result column="local_order_id" jdbcType="VARCHAR" property="localOrderId" />
+    <result column="sys_terminal_code" jdbcType="VARCHAR" property="sysTerminalCode" />
+    <result column="unionpay_number" jdbcType="VARCHAR" property="unionpayNumber" />
+    <result column="busineer_serial_number" jdbcType="VARCHAR" property="busineerSerialNumber" />
+    <result column="bank_card_number" jdbcType="VARCHAR" property="bankCardNumber" />
+    <result column="pay_date_str" jdbcType="VARCHAR" property="payDateStr" />
+    <result column="clear_date_str" jdbcType="VARCHAR" property="clearDateStr" />
+    <result column="pay_money" jdbcType="VARCHAR" property="payMoney" />
+    <result column="pay_commission" jdbcType="VARCHAR" property="payCommission" />
+    <result column="pay_phone" jdbcType="VARCHAR" property="payPhone" />
+    <result column="contract_no" jdbcType="VARCHAR" property="contractNo" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="pay_type" jdbcType="VARCHAR" property="payType" />
+    <result column="account_type" jdbcType="VARCHAR" property="accountType" />
+    <result column="clear_type" jdbcType="INTEGER" property="clearType" />
+    <result column="admin_name" jdbcType="VARCHAR" property="adminName" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+    <result column="is_del" jdbcType="BIT" property="isDel" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+  </resultMap>
+</mapper>

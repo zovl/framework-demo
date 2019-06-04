@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="a.b.c.mybatisgeneratordemo.client.AppOrderRevokMapper">
+  <resultMap id="BaseResultMap" type="a.b.c.mybatisgeneratordemo.model.AppOrderRevok">
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="version" jdbcType="BIGINT" property="version" />
+    <result column="order_id" jdbcType="BIGINT" property="orderId" />
+    <result column="is_payer" jdbcType="BIT" property="isPayer" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="rece_user_id" jdbcType="BIGINT" property="receUserId" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="last_modified_date" jdbcType="TIMESTAMP" property="lastModifiedDate" />
+    <result column="is_del" jdbcType="BIT" property="isDel" />
+    <result column="created_date" jdbcType="TIMESTAMP" property="createdDate" />
+    <result column="is_checked" jdbcType="BIT" property="isChecked" />
+    <result column="process_result" jdbcType="VARCHAR" property="processResult" />
+  </resultMap>
+</mapper>
