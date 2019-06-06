@@ -17,37 +17,59 @@ public class MainApplication {
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(in);
 
         SqlSession session = sqlSessionFactory.openSession();
-        BlogMapper mapper = session.getMapper(BlogMapper.class);
 
-        Blog newBlog = new Blog();
-        newBlog.setTitle("xxxx");
-        newBlog.setContent("yyyy");
-        session.insert("a.b.c.BlogMapper.insert", newBlog);
+/*        {
+            Blog newBlog = new Blog();
+            newBlog.setTitle("xxxx");
+            newBlog.setContent("yyyy");
+            session.insert("a.b.c.BlogMapper.insert", newBlog);
 
-        newBlog = new Blog();
-        newBlog.setId(1L);
-        newBlog.setTitle("xxxx");
-        newBlog.setContent("yyyy");
-        session.update("a.b.c.BlogMapper.updateById", newBlog);
+            newBlog = new Blog();
+            newBlog.setId(1L);
+            newBlog.setTitle("xxxx");
+            newBlog.setContent("yyyy");
+            session.update("a.b.c.BlogMapper.updateById", newBlog);
 
-        session.delete("a.b.c.BlogMapper.deleteById", 1L);
+            session.delete("a.b.c.BlogMapper.deleteById", 1L);
 
-        Blog blog = session.selectOne("a.b.c.BlogMapper.selectById", 1L);
-        List<Blog> blogs = session.selectList("a.b.c.BlogMapper.selectAll");
-/*
-        Blog newBlog = new Blog();
-        newBlog.setTitle("xxxx");
-        newBlog.setContent("yyyy");
-        mapper.insert(newBlog);
+            Blog blog = session.selectOne("a.b.c.BlogMapper.selectById", 1L);
+            List<Blog> blogs = session.selectList("a.b.c.BlogMapper.selectAll");
+        }
 
-        newBlog = new Blog();
-        newBlog.setId(1L);
-        newBlog.setTitle("xxxx");
-        newBlog.setContent("yyyy");
-        mapper.updateById(newBlog);
 
-        Blog blog = mapper.selectById(1L);
-        List<Blog> blogs = mapper.selectAll();*/
+        {
+
+            BlogMapper mapper = session.getMapper(BlogMapper.class);
+            Blog newBlog = new Blog();
+            newBlog.setTitle("xxxx");
+            newBlog.setContent("yyyy");
+            mapper.insert(newBlog);
+
+            newBlog = new Blog();
+            newBlog.setId(1L);
+            newBlog.setTitle("xxxx");
+            newBlog.setContent("yyyy");
+            mapper.updateById(newBlog);
+
+            Blog blog = mapper.selectById(1L);
+            List<Blog> blogs = mapper.selectAll();
+        }*/
+
+        {
+            UserMapper mapper = session.getMapper(UserMapper.class);
+            User newUser = new User();
+            newUser.setUsername("xxxx");
+            newUser.setPassword("yyyy");
+            mapper.insert(newUser);
+
+            newUser = new User();
+            newUser.setId(1L);
+            newUser.setUsername("xxxx");
+            newUser.setPassword("yyyy");
+
+            User user = mapper.selectById(1L);
+            List<User> users = mapper.selectAll();
+        }
 
         session.close();
     }
