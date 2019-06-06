@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="a.b.c.client.HelpTopicMapper" >
+  <resultMap id="BaseResultMap" type="a.b.c.model.HelpTopic" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="help_topic_id" property="helpTopicId" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="CHAR" />
+    <result column="help_category_id" property="helpCategoryId" jdbcType="SMALLINT" />
+    <result column="description" property="description" jdbcType="LONGVARCHAR" />
+    <result column="example" property="example" jdbcType="LONGVARCHAR" />
+    <result column="url" property="url" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

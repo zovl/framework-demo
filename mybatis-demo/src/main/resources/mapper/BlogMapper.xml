@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="a.b.c.BlogMapper">
+    <resultMap id="result" type="a.b.c.Blog">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="title" property="title" jdbcType="VARCHAR"/>
+        <result column="content" property="content" jdbcType="LONGVARCHAR"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="a.b.c.Blog">
+        INSERT INTO blog (title, content)
+        VALUES (#{title}, #{content})
+    </insert>
+
+    <update id="updateById" parameterType="a.b.c.Blog">
+        UPDATE blog
+        SET title = #{title}, content = #{content}
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById" parameterType="long">
+        DELETE
+        FROM blog
+        WHERE id = #{id}
+    </delete>
+
+    <select id="selectById" resultMap="result" parameterType="long">
+        SELECT *
+        FROM blog
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectAll" resultMap="result">
+        SELECT *
+        FROM blog
+    </select>
+</mapper>

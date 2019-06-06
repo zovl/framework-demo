@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="a.b.c.client.IndexStatsMapper" >
+  <resultMap id="BaseResultMap" type="a.b.c.model.IndexStats" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="db_name" property="dbName" jdbcType="VARCHAR" />
+    <id column="table_name" property="tableName" jdbcType="VARCHAR" />
+    <id column="index_name" property="indexName" jdbcType="VARCHAR" />
+    <id column="prefix_arity" property="prefixArity" jdbcType="INTEGER" />
+    <result column="avg_frequency" property="avgFrequency" jdbcType="DECIMAL" />
+  </resultMap>
+</mapper>

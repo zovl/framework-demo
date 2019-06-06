@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="a.b.c.client.ServersMapper" >
+  <resultMap id="BaseResultMap" type="a.b.c.model.Servers" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="Server_name" property="serverName" jdbcType="CHAR" />
+    <result column="Host" property="host" jdbcType="CHAR" />
+    <result column="Db" property="db" jdbcType="CHAR" />
+    <result column="Username" property="username" jdbcType="CHAR" />
+    <result column="Password" property="password" jdbcType="CHAR" />
+    <result column="Port" property="port" jdbcType="INTEGER" />
+    <result column="Socket" property="socket" jdbcType="CHAR" />
+    <result column="Wrapper" property="wrapper" jdbcType="CHAR" />
+    <result column="Owner" property="owner" jdbcType="CHAR" />
+  </resultMap>
+</mapper>

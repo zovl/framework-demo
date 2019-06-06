@@ -13,18 +13,18 @@
                   value="`"/>
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
             <property name="mappers"
-                      value="a.b.c.mybatisgeneratordemo.BaseMapper"/>
+                      value="a.b.c.BaseMapper"/>
         </plugin>
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/sxt-db?characterEncoding=utf8"
-                        userId="adam"
-                        password="adam123456!">
+        <jdbcConnection driverClass="${driver}"
+                        connectionURL="${url}"
+                        userId="${username}"
+                        password="${password}">
         </jdbcConnection>
-        <javaModelGenerator targetPackage="a.b.c.mybatisgeneratordemo.model"
+        <javaModelGenerator targetPackage="a.b.c.model"
                             targetProject="src/main/java"/>
         <sqlMapGenerator targetPackage="mapper"
                          targetProject="src/main/resources"/>
-        <javaClientGenerator targetPackage="a.b.c.mybatisgeneratordemo.client"
+        <javaClientGenerator targetPackage="a.b.c.client"
                              targetProject="src/main/java"
                              type="XMLMAPPER"/>
         <table tableName="%">

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="a.b.c.client.SlowLogMapper" >
+  <resultMap id="BaseResultMap" type="a.b.c.model.SlowLog" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <result column="start_time" property="startTime" jdbcType="TIMESTAMP" />
+    <result column="query_time" property="queryTime" jdbcType="TIME" />
+    <result column="lock_time" property="lockTime" jdbcType="TIME" />
+    <result column="rows_sent" property="rowsSent" jdbcType="INTEGER" />
+    <result column="rows_examined" property="rowsExamined" jdbcType="INTEGER" />
+    <result column="db" property="db" jdbcType="VARCHAR" />
+    <result column="last_insert_id" property="lastInsertId" jdbcType="INTEGER" />
+    <result column="insert_id" property="insertId" jdbcType="INTEGER" />
+    <result column="server_id" property="serverId" jdbcType="INTEGER" />
+    <result column="thread_id" property="threadId" jdbcType="BIGINT" />
+    <result column="rows_affected" property="rowsAffected" jdbcType="INTEGER" />
+    <result column="user_host" property="userHost" jdbcType="LONGVARCHAR" />
+    <result column="sql_text" property="sqlText" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

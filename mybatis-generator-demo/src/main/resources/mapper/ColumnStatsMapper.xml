@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="a.b.c.client.ColumnStatsMapper" >
+  <resultMap id="BaseResultMap" type="a.b.c.model.ColumnStats" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="db_name" property="dbName" jdbcType="VARCHAR" />
+    <id column="table_name" property="tableName" jdbcType="VARCHAR" />
+    <id column="column_name" property="columnName" jdbcType="VARCHAR" />
+    <result column="nulls_ratio" property="nullsRatio" jdbcType="DECIMAL" />
+    <result column="avg_length" property="avgLength" jdbcType="DECIMAL" />
+    <result column="avg_frequency" property="avgFrequency" jdbcType="DECIMAL" />
+    <result column="hist_size" property="histSize" jdbcType="TINYINT" />
+    <result column="hist_type" property="histType" jdbcType="CHAR" />
+    <result column="min_value" property="minValue" jdbcType="VARBINARY" />
+    <result column="max_value" property="maxValue" jdbcType="VARBINARY" />
+    <result column="histogram" property="histogram" jdbcType="VARBINARY" />
+  </resultMap>
+</mapper>

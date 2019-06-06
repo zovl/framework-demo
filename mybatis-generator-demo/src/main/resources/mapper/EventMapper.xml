@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="a.b.c.client.EventMapper" >
+  <resultMap id="BaseResultMap" type="a.b.c.model.Event" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="db" property="db" jdbcType="CHAR" />
+    <id column="name" property="name" jdbcType="CHAR" />
+    <result column="definer" property="definer" jdbcType="CHAR" />
+    <result column="execute_at" property="executeAt" jdbcType="TIMESTAMP" />
+    <result column="interval_value" property="intervalValue" jdbcType="INTEGER" />
+    <result column="interval_field" property="intervalField" jdbcType="CHAR" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="modified" property="modified" jdbcType="TIMESTAMP" />
+    <result column="last_executed" property="lastExecuted" jdbcType="TIMESTAMP" />
+    <result column="starts" property="starts" jdbcType="TIMESTAMP" />
+    <result column="ends" property="ends" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="CHAR" />
+    <result column="on_completion" property="onCompletion" jdbcType="CHAR" />
+    <result column="sql_mode" property="sqlMode" jdbcType="CHAR" />
+    <result column="comment" property="comment" jdbcType="CHAR" />
+    <result column="originator" property="originator" jdbcType="INTEGER" />
+    <result column="time_zone" property="timeZone" jdbcType="CHAR" />
+    <result column="character_set_client" property="characterSetClient" jdbcType="CHAR" />
+    <result column="collation_connection" property="collationConnection" jdbcType="CHAR" />
+    <result column="db_collation" property="dbCollation" jdbcType="CHAR" />
+    <result column="body" property="body" jdbcType="LONGVARBINARY" />
+    <result column="body_utf8" property="bodyUtf8" jdbcType="LONGVARBINARY" />
+  </resultMap>
+</mapper>
