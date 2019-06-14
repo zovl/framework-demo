@@ -1,30 +1,27 @@
-app_attachment \
-app_bank_card \
-app_bank_info \
-app_bill \
-app_bill_record \
-app_businessman \
-app_businessman_audit \
-app_contact_message \
-app_feedback \
-app_friend_ship \
-app_message_content \
-app_message_group \
-app_order \
-app_order_freeze_audit \
-app_order_frozen \
-app_order_installment \
-app_order_monitor \
-app_order_notice \
-app_order_revok \
-app_pay_clear \
-app_pay_clear_log \
-app_recharge_record \
-app_sys_account \
-app_sys_advance \
-app_sys_interest \
-app_system_broadcast \
-app_system_config \
-app_system_log \
-app_system_message
+/target
 
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
