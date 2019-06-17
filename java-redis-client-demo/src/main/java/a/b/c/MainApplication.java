@@ -8,7 +8,7 @@ public class MainApplication {
 
     public static void main(String[] args) throws Exception {
 
-        Jedis jedis = new Jedis("localhost");
+        Jedis jedis = new Jedis("127.0.0.1", 6379);
         String ping = jedis.ping();
 
         jedis.set("key", "value");
