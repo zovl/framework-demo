@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_redis_client_demo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libredis">
+				<Option output="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/liblibredis.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 libredis"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libredis/fast">
+				<Option output="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/liblibredis.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 libredis/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_redis_client_demo">
+				<Option output="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/c_redis_client_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_redis_client_demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_redis_client_demo/fast">
+				<Option output="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/c_redis_client_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_redis_client_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/adam/data/framework-demo/c-redis-client-demo/main.c">
+			<Option target="c_redis_client_demo"/>
+		</Unit>
+		<Unit filename="/home/adam/data/framework-demo/c-redis-client-demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

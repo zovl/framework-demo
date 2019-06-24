@@ -1,0 +1,4 @@
+/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/CMakeFiles/libredis.dir
+/home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug/CMakeFiles/c_redis_client_demo.dir

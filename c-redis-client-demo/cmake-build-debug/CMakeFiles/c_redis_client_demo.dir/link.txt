@@ -1,0 +1,1 @@
+/usr/bin/clang    CMakeFiles/c_redis_client_demo.dir/main.c.o  -o c_redis_client_demo 

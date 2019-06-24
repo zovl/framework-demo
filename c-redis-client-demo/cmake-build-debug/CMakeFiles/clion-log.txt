@@ -1,0 +1,15 @@
+/home/adam/software/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G "CodeBlocks - Unix Makefiles" /home/adam/data/framework-demo/c-redis-client-demo
+-- Configuring done
+CMake Error at CMakeLists.txt:9 (add_library):
+  Cannot find source file:
+
+    libredis
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: libredis
+CMake Error: Cannot determine link language for target "libredis".
+-- Generating done
+-- Build files have been written to: /home/adam/data/framework-demo/c-redis-client-demo/cmake-build-debug
